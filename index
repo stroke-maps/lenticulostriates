@@ -85,32 +85,10 @@
          colorMap: "gray",
        },
        {
-         url: "./Posterior-Choroidal-Artery-Left-12.nii.gz",
+         url: "./PostLS5lr.nii.gz",
          colorMap: 'redyell',
          opacity: 0.5
        },
-       {
-         url: "./Posterior-Choroidal-Artery-Right-12.nii.gz",
-         colorMap: 'redyell',
-         opacity: 0.5
-       }
-      ]
-      var volumeList4 = [
-       // first item is background image
-       {
-         url: "./mni152.nii.gz",
-         colorMap: "gray",
-       },
-       {
-         url: "./Tuberothalamic-Artery-Left-8.nii.gz",
-         colorMap: 'redyell',
-         opacity: 0.5
-       },
-       {
-         url: "./Tuberothalamic-Artery-Right-8.nii.gz",
-         colorMap: 'redyell',
-         opacity: 0.5
-       }
       ]
       var nv1 = new niivue.Niivue()
       nv1.setRadiologicalConvention(false)
@@ -129,12 +107,6 @@
       nv3.attachTo('gl3')
       nv3.loadVolumes(volumeList3)
       nv3.setSliceType(nv3.sliceTypeMultiplanar)
-
-      var nv4 = new niivue.Niivue()
-      nv4.setRadiologicalConvention(false)
-      nv4.attachTo('gl4')
-      nv4.loadVolumes(volumeList4)
-      nv4.setSliceType(nv4.sliceTypeMultiplanar)
     </script>
   </body>
 </html>
