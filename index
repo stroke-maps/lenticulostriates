@@ -18,7 +18,7 @@
 
     <section>
       <h1>
-        Inferolateral Artery
+        Anterior
       </h1>
     </section>
 
@@ -30,7 +30,7 @@
     </section>
     <section>
       <h1>
-        Paramedian Artery
+        Intermediate
       </h1>
     </section>
 
@@ -42,19 +42,7 @@
     </section>
     <section>
       <h1>
-        Posterior Choroidal Artery
-      </h1>
-    </section>
-
-    <section>
-      <div id="demo3" style="width:90%; height:400px;">
-        <canvas id="gl3" height=480 width=640>
-        </canvas>
-      </div>
-    </section>
-    <section>
-      <h1>
-        Tuberothalamic Artery
+        Posterior
       </h1>
     </section>
 
@@ -73,7 +61,7 @@
          colorMap: "gray",
        },
        {
-         url: "./Inferolateral-Artery-Left-19.nii.gz",
+         url: "./ANT2lr.nii.gz",
          colorMap: 'redyell',
          opacity: 0.5
        },
